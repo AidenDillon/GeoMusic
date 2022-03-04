@@ -60,36 +60,72 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-	background: #404040; 
+  background-image: url("images/concert\ bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 	
 	
 }
 
-.center {
-    width: 600px;
-	padding: 2%;
-    margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+.bottom-right {
+    width: 400px;
+	padding: 0.1%;
+    margin-left: 1450px;
+ 	background: rgba(0, 0, 0, 0.250);
 	text-align: center;
+	border: 4px solid white;
+}
+
+.maintext {
+    width: 950px;
+	padding: 2%;
+    margin-left: 0px;
+ 	background: rgba(142, 109, 204, 0.568);
+	border: 4px solid white;
+}
+
+.caption {
+    width: 700px;
+	padding: 1%;
+	margin-top: 20px;
+    margin-left: 0px;
+ 	background: rgba(142, 109, 204, 0.568);
 	border: 4px dashed white;
+}
+
+.center {
+	width: 750px;
+	height: 750px;
+	padding: 3%;
+    margin: 100px auto;
+ 	background: rgba(6, 4, 37, 0.75); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px outset white;
+	border-radius: 100px;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
+	border: 7px solid rgba(0, 0, 0, 0.75);
 	text-align: center;
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: orbitron, sans-serif;	
 	font-size: 2em;
-    margin: 0px auto 10px auto;
+	line-height: 1.4;
+	margin: 0px auto 25px auto;
+	padding: 0px 0px;
     color: #fff;
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: ocr-a-std, sans-serif;
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
@@ -98,11 +134,49 @@ h2 {
 }
 
 p {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */		;
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */	
+	font-family: lores-12, sans-serif;	
 	font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
     
-    
+nav {
+	font-family: lores-12, sans-serif;
+	font-size: 1.5em;
+	width: 400px; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	/*border: solid purple;
+	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the
+	nav element, the zero eliminates the left and right sides of the border */
+	text-align: center;
+	margin-top: 1em; /* This adds a bit of space above the nav element */
+	margin-bottom: 1em;
+	}    
 
+nav li{
+	display: inline; /* This allows
+	the block level elements to
+	display next to one another */
+	}
+
+nav a{
+	display: inline-block;
+	padding: 10px; /* This adds space
+	around each of the links */
+	}
+
+a{
+color: rgb(212, 78, 16);
+text-decoration: none; /* This
+removes the underline */
+font-weight: bold;
+}
+
+a:hover{
+	color: black;
+	background: purple; /* This is the
+	pink hover effect -- you’ll want to
+	change this! */
+	}
