@@ -95,6 +95,24 @@ html, body {
 	border: 4px dashed white;
 }
 
+.previewcaption {
+    width: 1000px;
+	padding: 1%;
+	margin-top: 20px;
+    margin-left: 0px;
+ 	background: rgba(240, 86, 14, 0.5);
+	border: 4px inset white;
+	}
+.previewpic {
+    width: 1000px;
+	padding: 3%;
+	margin-top: 20px;
+    margin: 100px auto;
+ 	background: rgba(0, 0, 0, 0.5);
+	border: 10px groove orange;
+	border-radius: 200px;
+	text-align: center;
+}
 .center {
 	width: 750px;
 	height: 750px;
@@ -116,7 +134,7 @@ html, body {
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: orbitron, sans-serif;	
-	font-size: 2em;
+	font-size: 3em;
 	line-height: 1.4;
 	margin: 0px auto 25px auto;
 	padding: 0px 0px;
@@ -126,7 +144,7 @@ h1 {
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: ocr-a-std, sans-serif;
-	font-size: 1.5em;
+	font-size: 2em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
@@ -136,7 +154,7 @@ h2 {
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */	
 	font-family: lores-12, sans-serif;	
-	font-size: 1.2em;
+	font-size: 1.5em;
     line-height: 1.6;
     color: #fff;
 }
