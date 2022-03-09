@@ -88,7 +88,7 @@ html, body {
 }
 
 .caption {
-    width: 1100px;
+    width: 1300px;
 	padding: 1%;
 	margin-top: 50px;
     margin: 50px auto;
@@ -98,19 +98,30 @@ html, body {
 }
 
 .previewcaption {
-    width: 1000px;
+    width: 2500px;
 	padding: 1%;
     margin: 100px auto;
- 	background: rgba(240, 86, 14, 0.5);
-	border: 4px inset white;
+ 	background: rgba(0, 0, 0, 0.4);
+	border-top: 20px double white;
 	}
-.previewpic {
-    width: 1000px;
-	padding: 3%;
-	margin-top: 20px;
+
+.previewtitle {
+    width: 1200px;
+	padding: 1%;
     margin: 100px auto;
- 	background: rgba(0, 0, 0, 0.5);
-	border: 10px groove orange;
+ 	background: rgba(0, 0, 0, 0.2);
+	text-align: center;
+	text-decoration: bold;
+	border-radius: 20px;
+	}
+
+
+.previewpic {
+    width: 2000px;
+	padding: 3%;
+    margin: 100px auto;
+ 	background: rgba(255, 255, 255, 1);
+	border: 30px outset orange;
 	border-radius: 200px;
 	text-align: center;
 }
@@ -155,15 +166,23 @@ h2 {
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */	
 	font-family: lores-12, sans-serif;	
-	font-size: 2.5em;
+	font-size: 3em;
+    line-height: 1.5;
+    color: #fff;
+}
+
+p2 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */	
+	font-family: lores-12, sans-serif;	
+	font-size: 4em;
     line-height: 1.5;
     color: #fff;
 }
     
 nav {
 	font-family: lores-12, sans-serif;
-	font-size: 1.5em;
-	width: 400px; /* This is the width of the nav element */
+	font-size: 2em;
+	width: 600px; /* This is the width of the nav element */
 	margin: 0 auto; /* This centers the entire nav element inside
 	the center div */
 	/*border: solid purple;
